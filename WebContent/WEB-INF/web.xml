@@ -1,0 +1,18 @@
+<web-app xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+<display-name>Housekeeping</display-name>
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+
+<servlet>
+<servlet-name>LoginServlet</servlet-name>
+<servlet-class>housekeepingapp.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/doLogin</url-pattern>
+</servlet-mapping>
+
+</web-app>
